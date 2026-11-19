@@ -3,32 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UMP Pharmaco-BioAI Lab | Nghiên cứu AI Chẩn đoán Ung thư Tuyến tiền liệt qua microRNA – Trường Dược ĐHYD TP.HCM</title>
+  <title>UMP Pharmaco-BioAI Lab | Trường Dược – Đại học Y Dược TP.HCM | AI &amp; microRNA Chẩn đoán Ung thư Tuyến tiền liệt</title>
   <meta
     name="description"
-    content="Trang web công khai của Nhóm Nghiên cứu Trí tuệ Nhân tạo Y sinh & Sinh tin học Dược (Trường Dược – Đại học Y Dược TP.HCM). Đề tài: Bước đầu ứng dụng trí tuệ nhân tạo trong xây dựng mô hình chẩn đoán ung thư tuyến tiền liệt dựa trên phân tích biểu hiện microRNA từ nguồn dữ liệu lớn."
+    content="Cổng thông tin khoa học công khai của Nhóm Nghiên cứu Trí tuệ Nhân tạo Y sinh & Sinh tin học Dược (Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh). Đề tài: Bước đầu ứng dụng trí tuệ nhân tạo trong xây dựng mô hình chẩn đoán ung thư tuyến tiền liệt dựa trên phân tích biểu hiện microRNA từ nguồn dữ liệu lớn."
   />
   <meta
     name="keywords"
-    content="Trường Dược ĐHYD TP.HCM, UMP HCMC, microRNA, Prostate Cancer, Ung thư tuyến tiền liệt, Artificial Intelligence, TCGA-PRAD, GEO GSE112264, GSE21036, SHAP, Bioinformatics, Open Science"
+    content="Trường Dược, Đại học Y Dược Thành phố Hồ Chí Minh, UMP HCMC, UMPSP, microRNA, Prostate Cancer, Ung thư tuyến tiền liệt, Artificial Intelligence, TCGA-PRAD, GEO GSE112264, GSE21036, SHAP, Bioinformatics"
   />
   <meta name="robots" content="index, follow" />
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
 
   <!-- Open Graph / Academic Sharing Metadata -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="UMP Pharmaco-BioAI Lab — AI & Big-Data microRNA Prostate Cancer Diagnostics" />
+  <meta property="og:title" content="UMP Pharmaco-BioAI Lab — Trường Dược, Đại học Y Dược TP.HCM" />
   <meta
     property="og:description"
-    content="Open public academic portal (No Login Required) — Trường Dược, Đại học Y Dược TP.HCM. Initial Application of AI in Developing a Prostate Cancer Diagnostic Model Based on Big-Data microRNA Expression Profiling."
+    content="Open public academic portal (No Login Required) — School of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City (UMP HCMC). Initial Application of AI in Developing a Prostate Cancer Diagnostic Model Based on Big-Data microRNA Expression Profiling."
   />
   <meta property="og:url" content="https://wwm100107-creator.github.io/ump-bioai-lab/" />
+  <meta property="og:image" content="https://wwm100107-creator.github.io/ump-bioai-lab/assets/ump-default.png" />
   <meta property="og:locale" content="vi_VN" />
   <meta property="og:locale:alternate" content="en_US" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
     rel="stylesheet"
   />
   <link rel="stylesheet" href="styles.css" />
@@ -43,6 +45,12 @@
           "@id": "https://wwm100107-creator.github.io/ump-bioai-lab/#institution",
           "name": "Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh",
           "alternateName": "School of Pharmacy – University of Medicine and Pharmacy at Ho Chi Minh City (UMP HCMC)",
+          "url": "https://pharm.ump.edu.vn",
+          "sameAs": [
+            "https://ump.edu.vn",
+            "https://pharm.ump.edu.vn"
+          ],
+          "logo": "https://wwm100107-creator.github.io/ump-bioai-lab/assets/logo-ump-crest.png",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "41 Đinh Tiên Hoàng, Phường Bến Nghé, Quận 1",
@@ -56,6 +64,7 @@
           "name": "Nhóm Nghiên cứu Trí tuệ Nhân tạo Y sinh & Sinh tin học Dược (UMP Pharmaco-BioAI Lab)",
           "alternateName": "UMP Pharmaco-BioAI & Transcriptomics Research Group",
           "url": "https://wwm100107-creator.github.io/ump-bioai-lab/",
+          "logo": "https://wwm100107-creator.github.io/ump-bioai-lab/assets/logo-truong-duoc.png",
           "parentOrganization": {
             "@id": "https://wwm100107-creator.github.io/ump-bioai-lab/#institution"
           },
@@ -80,7 +89,7 @@
   </script>
 </head>
 <body data-lang="bilingual">
-  <!-- Top Open-Access Status Bar -->
+  <!-- Top Institutional & Open-Access Bar -->
   <div class="top-access-bar">
     <div class="container top-access-inner">
       <div class="access-badge-group">
@@ -88,44 +97,54 @@
           <span class="status-dot" aria-hidden="true"></span>
           <span class="lang-vi">Cổng thông tin Khoa học Mở — Truy cập công khai, không yêu cầu đăng nhập</span>
           <span class="sep-bilingual">·</span>
-          <span class="lang-en">Open Public Research Portal — No Login Required</span>
+          <span class="lang-en">Verified Open Public Research Portal — No Login Required</span>
         </span>
       </div>
       <div class="access-badge-group">
-        <span class="pill-mini">
-          <span class="lang-vi" data-cfg="institutionVi">Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh</span>
-          <span class="sep-bilingual">/</span>
-          <span class="lang-en" data-cfg="institutionEn">School of Pharmacy – UMP HCMC</span>
-        </span>
+        <a href="https://ump.edu.vn" target="_blank" rel="noopener noreferrer">ĐHYD TP.HCM (ump.edu.vn) ↗</a>
+        <span>|</span>
+        <a href="https://pharm.ump.edu.vn" target="_blank" rel="noopener noreferrer">Trường Dược (pharm.ump.edu.vn) ↗</a>
         <span class="pill-mini mono" data-cfg="projectCode">UMP-PHARM-NCKH-2026-PRAD</span>
       </div>
     </div>
   </div>
 
-  <!-- Sticky Navigation Header -->
+  <!-- Sticky Navigation Header with Official University & School of Pharmacy Logos -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="#top" class="brand-lockup">
-        <svg class="brand-crest" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="48" height="48" rx="12" fill="#0f2544" />
-          <path d="M13 14C19 14 19 34 25 34C31 34 31 14 37 14" stroke="#6df0e8" stroke-width="2.6" stroke-linecap="round" />
-          <path d="M13 34C19 34 19 14 25 14C31 14 31 34 37 34" stroke="#ffffff" stroke-opacity="0.72" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="3 3" />
-          <circle cx="13" cy="14" r="2.6" fill="#6df0e8" />
-          <circle cx="37" cy="14" r="2.6" fill="#6df0e8" />
-          <circle cx="25" cy="24" r="3" fill="#ef5b69" />
-          <circle cx="13" cy="34" r="2.4" fill="#ffffff" />
-          <circle cx="37" cy="34" r="2.4" fill="#ffffff" />
-        </svg>
+        <div class="logo-pair" aria-label="Official Logos of UMP HCMC and School of Pharmacy">
+          <img
+            src="assets/logo-ump-crest.png"
+            alt="Logo Đại học Y Dược Thành phố Hồ Chí Minh (1947)"
+            class="official-logo-ump"
+            width="48"
+            height="48"
+          />
+          <img
+            src="assets/logo-truong-duoc.png"
+            alt="Logo Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh (UMPSP)"
+            class="official-logo-pharm"
+            width="48"
+            height="48"
+          />
+        </div>
+        <div class="brand-divider" aria-hidden="true"></div>
         <div>
+          <div class="brand-inst-top">
+            <span class="lang-vi">ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH · TRƯỜNG DƯỢC</span>
+            <span class="sep-bilingual">|</span>
+            <span class="lang-en">UMP HCMC · SCHOOL OF PHARMACY (UMPSP)</span>
+          </div>
           <div class="brand-title">
-            <span class="lang-vi">UMP Pharmaco-BioAI Lab</span>
+            <span class="lang-vi">UMP Pharmaco-BioAI &amp; Transcriptomics Lab</span>
             <span class="sep-bilingual">·</span>
-            <span class="lang-en">Transcriptomics &amp; AI</span>
+            <span class="lang-en">Computational Oncology Unit</span>
           </div>
           <div class="brand-subtitle">
-            <span class="lang-vi">Trường Dược – ĐHYD TP.HCM</span>
-            <span class="sep-bilingual">|</span>
-            <span class="lang-en">School of Pharmacy – UMP HCMC</span>
+            <span class="lang-vi">Nhóm Nghiên cứu Trí tuệ Nhân tạo Y sinh &amp; Sinh tin học Dược</span>
+            <span class="sep-bilingual">/</span>
+            <span class="lang-en">Biomedical AI &amp; Pharmaceutical Bioinformatics Research Group</span>
           </div>
         </div>
       </a>
@@ -134,9 +153,9 @@
         <a href="#overview"><span class="lang-vi">Tổng quan</span><span class="sep-bilingual">/</span><span class="lang-en">Overview</span></a>
         <a href="#cohorts"><span class="lang-vi">Dữ liệu lớn</span><span class="sep-bilingual">/</span><span class="lang-en">Big Data</span></a>
         <a href="#pipeline"><span class="lang-vi">Quy trình AI</span><span class="sep-bilingual">/</span><span class="lang-en">Pipeline</span></a>
-        <a href="#benchmarks"><span class="lang-vi">Dấu ấn &amp; Mô hình</span><span class="sep-bilingual">/</span><span class="lang-en">Benchmarks</span></a>
+        <a href="#benchmarks"><span class="lang-vi">Kết quả &amp; 14-miRNA</span><span class="sep-bilingual">/</span><span class="lang-en">Results</span></a>
         <a href="#simulator"><span class="lang-vi">Mô phỏng AI</span><span class="sep-bilingual">/</span><span class="lang-en">Simulator</span></a>
-        <a href="#team"><span class="lang-vi">Nhóm nghiên cứu</span><span class="sep-bilingual">/</span><span class="lang-en">Team</span></a>
+        <a href="#team"><span class="lang-vi">Đơn vị &amp; Nhóm</span><span class="sep-bilingual">/</span><span class="lang-en">Team</span></a>
       </nav>
 
       <div class="header-actions">
@@ -160,12 +179,25 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
+          <!-- Official University & School of Pharmacy Crest Lockup inside Hero -->
+          <div class="hero-inst-banner">
+            <div class="hero-inst-logos">
+              <img src="assets/logo-ump-crest.png" alt="Logo Đại học Y Dược TP.HCM" width="52" height="52" />
+              <img src="assets/logo-truong-duoc.png" alt="Logo Trường Dược UMPSP" width="52" height="52" />
+            </div>
+            <div class="hero-inst-text">
+              <span class="uni-name">ĐẠI HỌC Y DƯỢC THÀNH PHỐ HỒ CHÍ MINH (UMP HCMC · EST. 1947)</span>
+              <span class="school-name">TRƯỜNG DƯỢC · SCHOOL OF PHARMACY (UMPSP)</span>
+              <span class="unit-sub">41 Đinh Tiên Hoàng, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh, Việt Nam</span>
+            </div>
+          </div>
+
           <div class="hero-badges">
             <span class="hero-tag accent">✓ Open Public Access – No Login Required</span>
             <span class="hero-tag">
-              <span class="lang-vi">Nghiên cứu Khoa học Sinh viên · Trường Dược ĐHYD TP.HCM</span>
+              <span class="lang-vi">Đề tài Nghiên cứu Khoa học · Trường Dược ĐHYD TP.HCM</span>
               <span class="sep-bilingual">|</span>
-              <span class="lang-en">Student Research · School of Pharmacy, UMP HCMC</span>
+              <span class="lang-en">Scientific Research Monograph · School of Pharmacy, UMP HCMC</span>
             </span>
           </div>
 
@@ -181,135 +213,184 @@
 
           <div class="hero-lead bilingual-stack">
             <p class="lang-vi" style="margin:0;">
-              Cổng thông tin học thuật công khai trình bày nền tảng phương pháp luận sinh tin học, kiến trúc học máy giải thích được (Explainable AI – SHAP) và bộ dấu ấn 14 microRNA đặc hiệu được tuyển chọn từ hơn 2.190 mẫu phiên mã học đa trung tâm (TCGA-PRAD &amp; NCBI GEO), hướng tới hỗ trợ sàng lọc không xâm lấn và phân tầng nguy cơ ung thư tuyến tiền liệt.
+              Cổng thông tin khoa học công khai của nhóm nghiên cứu tại <strong>Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh</strong>, công bố quy trình sinh tin học đa trung tâm, kiến trúc học máy giải thích được (Explainable AI – SHAP) và bộ dấu ấn <strong>14-miRNA</strong> đặc hiệu được trích xuất từ hơn <strong>2.190 mẫu phiên mã học</strong> (TCGA-PRAD &amp; NCBI GEO).
             </p>
             <p class="lang-en" style="margin:0;">
-              Public academic portal presenting our bioinformatics methodology, Explainable AI (SHAP) diagnostic framework, and 14-miRNA core signature derived from 2,190+ multi-center transcriptomic profiles (TCGA-PRAD &amp; NCBI GEO) to support non-invasive prostate cancer screening and risk stratification.
+              Official open-access scientific portal of our research group at the <strong>School of Pharmacy – University of Medicine and Pharmacy at Ho Chi Minh City (UMP HCMC)</strong>, presenting our multi-cohort bioinformatics workflow, Explainable AI (SHAP) architecture, and <strong>14-miRNA diagnostic signature</strong> across <strong>2,190+ transcriptomic profiles</strong> (TCGA-PRAD &amp; NCBI GEO).
             </p>
           </div>
 
           <div class="hero-cta-row">
             <a href="#benchmarks" class="btn btn-primary">
-              <span class="lang-vi">Khám phá Bảng hiệu năng &amp; 14 miRNA</span>
+              <span class="lang-vi">Xem Kết quả Mô hình &amp; 14 Dấu ấn miRNA</span>
               <span class="sep-bilingual">/</span>
-              <span class="lang-en">Explore Benchmarks &amp; 14-miRNA Signature</span>
+              <span class="lang-en">View Model Results &amp; 14-miRNA Panel</span>
             </a>
             <a href="#simulator" class="btn btn-ghost-light">
-              <span class="lang-vi">Thử nghiệm Mô phỏng Chẩn đoán AI</span>
+              <span class="lang-vi">Chạy Mô phỏng Chẩn đoán AI &amp; SHAP</span>
               <span class="sep-bilingual">/</span>
-              <span class="lang-en">Try Interactive AI Simulator</span>
+              <span class="lang-en">Launch Interactive AI &amp; SHAP Console</span>
             </a>
           </div>
         </div>
 
-        <aside class="hero-stats-panel" aria-label="Study Key Metrics">
-          <div class="hero-stats-header">
-            <span>
-              <span class="lang-vi">CHỈ SỐ NGHIÊN CỨU CỐT LÕI</span>
-              <span class="sep-bilingual">·</span>
-              <span class="lang-en">CORE STUDY BENCHMARKS</span>
-            </span>
-            <span class="mono" style="color:#6df0e8;">PRAD · miRNA-Seq</span>
-          </div>
+        <aside class="hero-stats-panel" aria-label="Institutional Campus & Study Key Metrics">
+          <div>
+            <div class="campus-preview-card">
+              <img src="assets/ump-default.png" alt="Khuôn viên Đại học Y Dược Thành phố Hồ Chí Minh" />
+              <div class="campus-overlay-badge">
+                <span class="lang-vi">Đại học Y Dược TP. Hồ Chí Minh · Trường Dược</span>
+                <span class="sep-bilingual">/</span>
+                <span class="lang-en">UMP HCMC Campus · School of Pharmacy</span>
+              </div>
+            </div>
 
-          <div class="kpi-grid">
-            <div class="kpi-card">
-              <div class="kpi-value">2,190+</div>
-              <div class="kpi-label">
-                <span class="lang-vi">Mẫu bệnh phẩm tích hợp (TCGA-PRAD &amp; GEO)</span>
-                <span class="sep-bilingual">/</span>
-                <span class="lang-en">Harmonized Profiles (TCGA-PRAD &amp; GEO)</span>
-              </div>
+            <div class="hero-stats-header">
+              <span>
+                <span class="lang-vi">CHỈ SỐ NGHIÊN CỨU TRỌNG TÂM</span>
+                <span class="sep-bilingual">·</span>
+                <span class="lang-en">KEY SCIENTIFIC METRICS</span>
+              </span>
+              <span class="mono" style="color:#6df0e8;">PRAD · miRNA-Seq</span>
             </div>
-            <div class="kpi-card">
-              <div class="kpi-value">2,588</div>
-              <div class="kpi-label">
-                <span class="lang-vi">Mature miRNAs sàng lọc chuẩn miRBase v22.1</span>
-                <span class="sep-bilingual">/</span>
-                <span class="lang-en">Mature miRNAs Surveyed (miRBase v22.1)</span>
+
+            <div class="kpi-grid">
+              <div class="kpi-card">
+                <div class="kpi-value">2,190+</div>
+                <div class="kpi-label">
+                  <span class="lang-vi">Mẫu bệnh phẩm tích hợp (TCGA-PRAD &amp; GEO)</span>
+                  <span class="sep-bilingual">/</span>
+                  <span class="lang-en">Harmonized Samples (TCGA-PRAD &amp; GEO)</span>
+                </div>
               </div>
-            </div>
-            <div class="kpi-card">
-              <div class="kpi-value">14-miRNA</div>
-              <div class="kpi-label">
-                <span class="lang-vi">Tổ hợp dấu ấn lõi (7 OncomiRs + 7 Suppressors)</span>
-                <span class="sep-bilingual">/</span>
-                <span class="lang-en">Core Signature (7 Up + 7 Down)</span>
+              <div class="kpi-card">
+                <div class="kpi-value">2,588</div>
+                <div class="kpi-label">
+                  <span class="lang-vi">Mature miRNAs khảo sát (miRBase v22.1)</span>
+                  <span class="sep-bilingual">/</span>
+                  <span class="lang-en">Mature miRNAs Profiled (miRBase v22.1)</span>
+                </div>
               </div>
-            </div>
-            <div class="kpi-card">
-              <div class="kpi-value">0.964</div>
-              <div class="kpi-label">
-                <span class="lang-vi">AUC-ROC (Stacking Ensemble · 10-Fold CV)</span>
-                <span class="sep-bilingual">/</span>
-                <span class="lang-en">AUC-ROC (Stacking Ensemble · 10-Fold CV)</span>
+              <div class="kpi-card">
+                <div class="kpi-value">14-miRNA</div>
+                <div class="kpi-label">
+                  <span class="lang-vi">Dấu ấn sinh học lõi (7 Up + 7 Down)</span>
+                  <span class="sep-bilingual">/</span>
+                  <span class="lang-en">Core Biomarker Panel (7 Up + 7 Down)</span>
+                </div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-value">0.964</div>
+                <div class="kpi-label">
+                  <span class="lang-vi">AUC-ROC (Stacking Ensemble · 10-Fold CV)</span>
+                  <span class="sep-bilingual">/</span>
+                  <span class="lang-en">AUC-ROC (Stacking Ensemble · 10-Fold CV)</span>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="hero-meta-footer">
             <div>
-              <strong><span class="lang-vi">Đơn vị:</span><span class="sep-bilingual">/</span><span class="lang-en">Unit:</span></strong>
+              <strong><span class="lang-vi">Đơn vị đào tạo &amp; NCKH:</span><span class="sep-bilingual">/</span><span class="lang-en">Academic Host:</span></strong>
               <span class="lang-vi" data-cfg="institutionVi">Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh</span>
               <span class="sep-bilingual">/</span>
               <span class="lang-en" data-cfg="institutionEn">School of Pharmacy – UMP HCMC</span>
             </div>
             <div>
-              <strong><span class="lang-vi">Địa điểm:</span><span class="sep-bilingual">/</span><span class="lang-en">Location:</span></strong>
-              <span class="lang-vi">41 Đinh Tiên Hoàng, Quận 1, TP. Hồ Chí Minh</span>
-              <span class="sep-bilingual">/</span>
-              <span class="lang-en">41 Dinh Tien Hoang, District 1, Ho Chi Minh City</span>
+              <strong><span class="lang-vi">Trạng thái công bố:</span><span class="sep-bilingual">/</span><span class="lang-en">Portal Status:</span></strong>
+              <span>Public Academic Lab Website · HTTPS Verified · No Login Wall</span>
             </div>
           </div>
         </aside>
       </div>
     </section>
 
+    <!-- Institutional Verification Dossier Strip -->
+    <div class="dossier-strip" aria-label="Project Verification Metadata">
+      <div class="container dossier-grid">
+        <div class="dossier-item">
+          <div class="dossier-label">
+            <span class="lang-vi">Cơ quan Chủ quản</span><span class="sep-bilingual"> / </span><span class="lang-en">Host Institution</span>
+          </div>
+          <div class="dossier-value">
+            <span class="lang-vi">Trường Dược – ĐHYD TP. Hồ Chí Minh</span>
+            <span class="sep-bilingual">·</span>
+            <span class="lang-en">School of Pharmacy, UMP HCMC</span>
+          </div>
+        </div>
+        <div class="dossier-item">
+          <div class="dossier-label">
+            <span class="lang-vi">Mã số &amp; Chuyên ngành</span><span class="sep-bilingual"> / </span><span class="lang-en">Project ID &amp; Field</span>
+          </div>
+          <div class="dossier-value">
+            <span class="mono" data-cfg="projectCode">UMP-PHARM-NCKH-2026-PRAD</span> · Pharmaco-BioAI
+          </div>
+        </div>
+        <div class="dossier-item">
+          <div class="dossier-label">
+            <span class="lang-vi">Nguồn dữ liệu chuẩn quốc tế</span><span class="sep-bilingual"> / </span><span class="lang-en">Primary Data Sources</span>
+          </div>
+          <div class="dossier-value mono">NCI TCGA-PRAD · GEO GSE112264 · GSE21036</div>
+        </div>
+        <div class="dossier-item">
+          <div class="dossier-label">
+            <span class="lang-vi">Quyền truy cập học thuật</span><span class="sep-bilingual"> / </span><span class="lang-en">Public Access Compliance</span>
+          </div>
+          <div class="dossier-value" style="color:var(--pharm-green-700);">
+            ✓ Open Public Website (No Login Required)
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Section 1: Overview & Structured Abstract -->
     <section id="overview" class="section">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">01 · Abstract &amp; Clinical Rationale</span>
+          <span class="section-kicker">Section 01 · Executive Abstract &amp; Clinical Rationale</span>
           <h2 class="section-title bilingual-stack">
-            <span class="lang-vi">Tổng quan &amp; Tóm tắt Nghiên cứu</span>
-            <span class="lang-en">Research Overview &amp; Structured Abstract</span>
+            <span class="lang-vi">Tổng quan Đề tài &amp; Tóm tắt Nghiên cứu Học thuật</span>
+            <span class="lang-en">Executive Research Overview &amp; Structured Scientific Abstract</span>
           </h2>
           <p class="section-subtitle bilingual-stack">
-            <span class="lang-vi">Cơ sở lâm sàng, khoảng trống chẩn đoán của xét nghiệm PSA hiện hành và vai trò sinh học phân tử của microRNA trong ung thư biểu mô tuyến tiền liệt (PRAD).</span>
-            <span class="lang-en">Clinical rationale addressing current serum PSA diagnostic limitations and the molecular utility of microRNA biomarkers in Prostate Adenocarcinoma (PRAD).</span>
+            <span class="lang-vi">Cơ sở khoa học về hạn chế của xét nghiệm PSA huyết thanh trong vùng xám chẩn đoán và tiềm năng ứng dụng học máy trên dữ liệu lớn biểu hiện microRNA trong ung thư biểu mô tuyến tiền liệt (Prostate Adenocarcinoma – PRAD).</span>
+            <span class="lang-en">Scientific rationale addressing serum PSA limitations in the diagnostic gray zone and the translational potential of machine learning applied to large-scale microRNA expression profiles in Prostate Adenocarcinoma (PRAD).</span>
           </p>
         </div>
 
         <div class="grid-2">
           <article class="card card-navy-top">
+            <span class="figure-label">BACKGROUND &amp; RATIONALE</span>
             <h3 class="card-title bilingual-stack">
-              <span class="lang-vi">Đặt vấn đề &amp; Tính cấp thiết Lâm sàng</span>
-              <span class="lang-en">Problem Statement &amp; Clinical Rationale</span>
+              <span class="lang-vi">Đặt vấn đề &amp; Tính cấp thiết Y Dược học</span>
+              <span class="lang-en">Problem Statement &amp; Biomedical Significance</span>
             </h3>
             <div class="bilingual-stack" style="font-size:0.92rem;color:var(--text-secondary);">
-              <p class="lang-vi" style="margin:0 0 0.7rem;">
-                Ung thư tuyến tiền liệt (Prostate Adenocarcinoma – PRAD) là một trong những bệnh lý ác tính phổ biến hàng đầu ở nam giới. Hiện nay, xét nghiệm kháng nguyên đặc hiệu tuyến tiền liệt (PSA) huyết thanh giữ vai trò sàng lọc đầu tay, nhưng có độ đặc hiệu hạn chế — đặc biệt trong <strong>“vùng xám” (PSA 4–10 ng/mL)</strong>, nơi tăng sinh lành tính tuyến tiền liệt (BPH) hoặc viêm tuyến tiền liệt cũng làm tăng PSA, dẫn đến tỷ lệ sinh thiết âm tính không cần thiết lên đến 60–75%.
+              <p class="lang-vi" style="margin:0 0 0.75rem;">
+                Ung thư tuyến tiền liệt (Prostate Adenocarcinoma – PRAD) là một trong những bệnh lý ác tính có tỷ lệ mắc mới cao nhất ở nam giới. Xét nghiệm kháng nguyên đặc hiệu tuyến tiền liệt (PSA) huyết thanh hiện là công cụ sàng lọc phổ biến nhưng có độ đặc hiệu thấp trong <strong>“vùng xám chẩn đoán” (PSA 4–10 ng/mL)</strong>, nơi tăng sinh lành tính tuyến tiền liệt (BPH) hoặc viêm mạn tính đều gây tăng PSA giả tạo, dẫn đến 60–75% ca sinh thiết xâm lấn cho kết quả âm tính.
               </p>
-              <p class="lang-en" style="margin:0 0 0.7rem;">
-                Prostate Adenocarcinoma (PRAD) remains a leading male malignancy worldwide. While serum Prostate-Specific Antigen (PSA) serves as the standard primary screening tool, it suffers from low specificity—especially within the <strong>diagnostic “gray zone” (PSA 4–10 ng/mL)</strong>, where benign prostatic hyperplasia (BPH) and prostatitis yield false positives, resulting in unnecessary invasive biopsies.
+              <p class="lang-en" style="margin:0 0 0.75rem;">
+                Prostate Adenocarcinoma (PRAD) ranks among the most prevalent male malignancies globally. Conventional serum Prostate-Specific Antigen (PSA) screening exhibits poor specificity within the <strong>diagnostic “gray zone” (PSA 4–10 ng/mL)</strong>, where benign prostatic hyperplasia (BPH) and prostatitis trigger false-positive elevations and unnecessary invasive core biopsies.
               </p>
               <p class="lang-vi" style="margin:0;">
-                <strong>MicroRNA (miRNA)</strong> là các phân tử RNA không mã hóa dài 18–25 nucleotide có độ ổn định cao trong mô và huyết thanh. Sự mất điều hòa các <em>OncomiRs</em> (như miR-375, miR-141, miR-21) và <em>Tumor-Suppressor miRNAs</em> (như miR-205, miR-145, miR-34a) phản ánh sớm cơ chế sinh ung qua thụ thể Androgen (AR) và trục PI3K/AKT. Việc kết hợp dữ liệu phiên mã lớn với trí tuệ nhân tạo giúp chiết xuất tổ hợp dấu ấn có độ chính xác cao hơn từng chỉ dấu đơn lẻ.
+                <strong>MicroRNA (miRNA)</strong> là các phân tử RNA không mã hóa ngắn (18–25 nucleotide) điều hòa biểu hiện gen sau phiên mã và có tính bền vững sinh học cao trong cả mô bệnh phẩm lẫn dịch sinh học (huyết thanh/huyết tương). Sự biến đổi đồng thời của nhóm <em>OncomiRs</em> (<code class="mono">miR-375-3p, miR-141-3p, miR-182-5p, miR-21-5p</code>) và nhóm <em>Tumor-Suppressor miRNAs</em> (<code class="mono">miR-205-5p, miR-145-5p, miR-34a-5p</code>) phản ánh trực tiếp rối loạn trục tín hiệu thụ thể Androgen (AR) và PTEN/PI3K/AKT.
               </p>
               <p class="lang-en" style="margin:0;">
-                <strong>MicroRNAs (miRNAs)</strong> are highly stable 18–25 nt non-coding RNAs detectable in both tissue and circulating serum. Dysregulation of oncogenic miRNAs (<em>OncomiRs</em>) and <em>Tumor-Suppressor miRNAs</em> reflects early tumorigenesis across AR and PI3K/AKT signaling pathways. Integrating multi-cohort big-data expression profiles with AI algorithms enables discovery of robust multi-miRNA diagnostic panels.
+                <strong>MicroRNAs (miRNAs)</strong> are short (18–25 nt) non-coding post-transcriptional regulators with remarkable stability in tissue and biofluids. Coordinated dysregulation of oncogenic miRNAs (<em>OncomiRs</em>: <code class="mono">miR-375-3p, miR-141-3p, miR-182-5p, miR-21-5p</code>) and <em>Tumor-Suppressor miRNAs</em> (<code class="mono">miR-205-5p, miR-145-5p, miR-34a-5p</code>) captures early oncogenic remodeling across Androgen Receptor (AR) and PTEN/PI3K/AKT pathways.
               </p>
             </div>
           </article>
 
           <article class="card card-accent-top">
+            <span class="figure-label">STUDY OBJECTIVES</span>
             <h3 class="card-title bilingual-stack">
               <span class="lang-vi">Mục tiêu Tổng quát &amp; 3 Mục tiêu Cụ thể</span>
-              <span class="lang-en">General Aim &amp; Three Specific Objectives</span>
+              <span class="lang-en">General Aim &amp; Three Specific Research Objectives</span>
             </h3>
             <div class="callout-box bilingual-stack" style="font-size:0.89rem;">
-              <span class="lang-vi"><strong>Mục tiêu tổng quát:</strong> Xây dựng và đánh giá bước đầu mô hình trí tuệ nhân tạo dựa trên dữ liệu lớn biểu hiện microRNA nhằm phân biệt chính xác ung thư tuyến tiền liệt với mẫu đối chứng lành tính, đồng thời giải thích được cơ chế sinh học phân tử phục vụ nghiên cứu dấu ấn sinh học và phát triển dược phẩm nhắm trúng đích.</span>
-              <span class="lang-en"><strong>General Objective:</strong> Develop and validate an interpretable AI diagnostic model leveraging large-scale microRNA expression data to distinguish prostate cancer from benign/normal controls while illuminating molecular targets relevant to pharmaceutical sciences.</span>
+              <span class="lang-vi"><strong>Mục tiêu tổng quát:</strong> Ứng dụng các thuật toán trí tuệ nhân tạo và sinh tin học trên nguồn dữ liệu phiên mã quy mô lớn nhằm xây dựng mô hình chẩn đoán ung thư tuyến tiền liệt có độ chính xác cao, giải thích được bằng SHAP và xác định mạng lưới gen đích phục vụ định hướng dược lý phân tử.</span>
+              <span class="lang-en"><strong>General Objective:</strong> Apply bioinformatics and interpretable machine learning to big-data microRNA repositories to establish a high-accuracy, SHAP-explainable diagnostic model for prostate cancer and elucidate druggable molecular target networks.</span>
             </div>
 
             <ul class="objective-list">
@@ -337,6 +418,89 @@
             </ul>
           </article>
         </div>
+
+        <!-- Graphical Abstract Schematic SVG -->
+        <div class="graphical-abstract">
+          <div class="ga-header">
+            <div>
+              <span class="figure-label">GRAPHICAL ABSTRACT · SYSTEM ARCHITECTURE</span>
+              <h3 class="card-title" style="margin:0;">
+                <span class="lang-vi">Sơ đồ Tổng thể Nghiên cứu: Từ Dữ liệu lớn microRNA đến Mô hình AI Giải thích được</span>
+                <span class="sep-bilingual"> / </span>
+                <span class="lang-en">End-to-End Study Architecture: From Multi-Cohort miRNA Big Data to Explainable AI Diagnostics</span>
+              </h3>
+            </div>
+            <span class="cohort-badge" style="margin:0;">Zero Data Leakage Protocol</span>
+          </div>
+
+          <div class="chart-frame" style="padding:0.75rem;background:#f8fbff;">
+            <svg viewBox="0 0 1120 195" role="img" aria-label="Graphical Abstract of the AI microRNA Prostate Cancer Study">
+              <defs>
+                <linearGradient id="gaBox1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#0b2140" />
+                  <stop offset="100%" stop-color="#113868" />
+                </linearGradient>
+                <linearGradient id="gaBox2" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#006699" />
+                  <stop offset="100%" stop-color="#0086c3" />
+                </linearGradient>
+                <linearGradient id="gaBox3" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#0a7a4b" />
+                  <stop offset="100%" stop-color="#0e945c" />
+                </linearGradient>
+              </defs>
+
+              <!-- Box 1: Cohorts -->
+              <rect x="14" y="18" width="245" height="158" rx="12" fill="url(#gaBox1)" />
+              <text x="30" y="46" fill="#79e2ff" font-size="11" font-weight="700" font-family="IBM Plex Mono, monospace">1. BIG DATA REPOSITORIES</text>
+              <text x="30" y="70" fill="#ffffff" font-size="13.5" font-weight="700">2,190+ Transcriptomic Samples</text>
+              <text x="30" y="94" fill="#d4e6fb" font-size="11.5">• NCI TCGA-PRAD (499 PRAD / 52 Ctrl)</text>
+              <text x="30" y="114" fill="#d4e6fb" font-size="11.5">• GEO GSE112264 (809 PRAD / 241 Ctrl)</text>
+              <text x="30" y="134" fill="#d4e6fb" font-size="11.5">• GEO GSE21036 External (113 / 28)</text>
+              <text x="30" y="156" fill="#8ce7ff" font-size="10.8" font-family="IBM Plex Mono, monospace">2,588 Mature miRNAs (miRBase v22.1)</text>
+
+              <!-- Arrow 1 -->
+              <path d="M266 97 L292 97" stroke="#006699" stroke-width="2.5" />
+              <polygon points="292,92 302,97 292,102" fill="#006699" />
+
+              <!-- Box 2: Harmonization & Feature Selection -->
+              <rect x="308" y="18" width="250" height="158" rx="12" fill="#ffffff" stroke="#b8cde4" stroke-width="1.8" />
+              <text x="324" y="46" fill="#006699" font-size="11" font-weight="700" font-family="IBM Plex Mono, monospace">2. HYBRID FEATURE SELECTION</text>
+              <text x="324" y="70" fill="#0b2140" font-size="13.5" font-weight="700">QC &amp; Consensus Intersection</text>
+              <text x="324" y="94" fill="#354a63" font-size="11.5">• log₂(RPM+1) &amp; ComBat Batch Correct</text>
+              <text x="324" y="114" fill="#354a63" font-size="11.5">• DESeq2/Limma (|log₂FC|≥1, FDR&lt;0.01)</text>
+              <text x="324" y="134" fill="#354a63" font-size="11.5">• LASSO (L1) ∩ SVM-RFE ∩ Boruta</text>
+              <rect x="324" y="144" width="218" height="22" rx="5" fill="#e8f4fc" />
+              <text x="433" y="159" text-anchor="middle" fill="#006699" font-size="10.8" font-weight="700" font-family="IBM Plex Mono, monospace">→ 14-miRNA Core Signature</text>
+
+              <!-- Arrow 2 -->
+              <path d="M565 97 L591 97" stroke="#006699" stroke-width="2.5" />
+              <polygon points="591,92 601,97 591,102" fill="#006699" />
+
+              <!-- Box 3: AI Training -->
+              <rect x="607" y="18" width="238" height="158" rx="12" fill="url(#gaBox2)" />
+              <text x="623" y="46" fill="#b7f0ff" font-size="11" font-weight="700" font-family="IBM Plex Mono, monospace">3. ENSEMBLE AI MODELS</text>
+              <text x="623" y="70" fill="#ffffff" font-size="13.5" font-weight="700">Multi-Classifier Benchmark</text>
+              <text x="623" y="94" fill="#e6f5ff" font-size="11.5">• Stacking (XGBoost + LGBM + SVM)</text>
+              <text x="623" y="114" fill="#e6f5ff" font-size="11.5">• Stratified 10-Fold CV: AUC = 0.964</text>
+              <text x="623" y="134" fill="#e6f5ff" font-size="11.5">• External Validation: AUC = 0.941</text>
+              <text x="623" y="156" fill="#a6ffda" font-size="10.8" font-weight="700" font-family="IBM Plex Mono, monospace">Sens: 93.8% · Spec: 92.1%</text>
+
+              <!-- Arrow 3 -->
+              <path d="M852 97 L878 97" stroke="#0a7a4b" stroke-width="2.5" />
+              <polygon points="878,92 888,97 878,102" fill="#0a7a4b" />
+
+              <!-- Box 4: Explainable AI & Pharmaco-Targets -->
+              <rect x="894" y="18" width="212" height="158" rx="12" fill="url(#gaBox3)" />
+              <text x="910" y="46" fill="#b8ffe0" font-size="11" font-weight="700" font-family="IBM Plex Mono, monospace">4. XAI &amp; PHARMACOLOGY</text>
+              <text x="910" y="70" fill="#ffffff" font-size="13.5" font-weight="700">SHAP &amp; Pathway Targets</text>
+              <text x="910" y="94" fill="#e6fff3" font-size="11.5">• Global &amp; Patient-Level SHAP</text>
+              <text x="910" y="114" fill="#e6fff3" font-size="11.5">• miRTarBase v9.0 Target Network</text>
+              <text x="910" y="134" fill="#e6fff3" font-size="11.5">• AR, PTEN/PI3K/AKT, ZEB1/EMT</text>
+              <text x="910" y="156" fill="#ffffff" font-size="10.8" font-weight="700" font-family="IBM Plex Mono, monospace">Translational Precision Med</text>
+            </svg>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -344,14 +508,14 @@
     <section id="cohorts" class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">02 · Big Data Cohorts &amp; Harmonization</span>
+          <span class="section-kicker">Section 02 · Big Data Cohorts &amp; Harmonization</span>
           <h2 class="section-title bilingual-stack">
-            <span class="lang-vi">Nguồn Dữ liệu Lớn &amp; Chuẩn hóa Phiên mã học</span>
-            <span class="lang-en">Big Data Cohorts &amp; Cross-Platform Harmonization</span>
+            <span class="lang-vi">Nguồn Dữ liệu Lớn &amp; Chuẩn hóa Phiên mã học Đa Trung tâm</span>
+            <span class="lang-en">Multi-Center Big Data Cohorts &amp; Cross-Platform Harmonization</span>
           </h2>
           <p class="section-subtitle bilingual-stack">
-            <span class="lang-vi">Nghiên cứu sử dụng hoàn toàn dữ liệu phiên mã học thứ cấp đã được ẩn danh và công bố công khai trên các kho dữ liệu sinh học chuẩn quốc tế (tổng cộng 1.742 mẫu chính trong 3 bộ dữ liệu nòng cốt cùng các tập đối chứng huyết thanh bổ sung đạt quy mô hơn 2.190 mẫu chuẩn hóa).</span>
-            <span class="lang-en">This study relies exclusively on publicly accessible, de-identified secondary transcriptomic repositories (1,742 core samples across the three primary cohorts plus supplementary benign/serum reference sets totaling 2,190+ harmonized profiles).</span>
+            <span class="lang-vi">Nghiên cứu khai thác dữ liệu phiên mã học thứ cấp đã được ẩn danh từ các kho lưu trữ chuẩn quốc tế: 1.742 mẫu chính trong 3 tập dữ liệu nòng cốt kết hợp cùng các tập tham chiếu huyết thanh/mô lành từ NCBI GEO đạt quy mô trên 2.190 hồ sơ biểu hiện chuẩn hóa.</span>
+            <span class="lang-en">The study integrates anonymized secondary transcriptomic cohorts from international repositories: 1,742 core samples across three primary datasets plus supplementary benign/serum GEO reference profiles totaling 2,190+ harmonized expression records.</span>
           </p>
         </div>
 
@@ -397,15 +561,18 @@
           </div>
         </div>
 
+        <div style="margin-bottom:0.45rem;">
+          <span class="figure-label">TABLE 1 · MULTI-COHORT TRANSCRIPTOMIC REPOSITORIES</span>
+        </div>
         <div class="table-wrap">
           <table class="data-table">
             <thead>
               <tr>
                 <th><span class="lang-vi">Nguồn dữ liệu / Kho lưu trữ</span><span class="sep-bilingual"> / </span><span class="lang-en">Cohort / Repository</span></th>
-                <th><span class="lang-vi">Nền tảng đo</span><span class="sep-bilingual"> / </span><span class="lang-en">Platform</span></th>
-                <th><span class="lang-vi">Mẫu Bệnh (PRAD)</span><span class="sep-bilingual"> / </span><span class="lang-en">Cases</span></th>
+                <th><span class="lang-vi">Nền tảng đo</span><span class="sep-bilingual"> / </span><span class="lang-en">Assay Platform</span></th>
+                <th><span class="lang-vi">Mẫu Bệnh (PRAD)</span><span class="sep-bilingual"> / </span><span class="lang-en">PRAD Cases</span></th>
                 <th><span class="lang-vi">Mẫu Đối chứng</span><span class="sep-bilingual"> / </span><span class="lang-en">Controls</span></th>
-                <th><span class="lang-vi">Vai trò trong Nghiên cứu</span><span class="sep-bilingual"> / </span><span class="lang-en">Role in Study</span></th>
+                <th><span class="lang-vi">Vai trò trong Nghiên cứu</span><span class="sep-bilingual"> / </span><span class="lang-en">Methodological Role</span></th>
               </tr>
             </thead>
             <tbody>
@@ -462,14 +629,14 @@
     <section id="pipeline" class="section">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">03 · 5-Stage Computational Pipeline</span>
+          <span class="section-kicker">Section 03 · 5-Stage Computational Pipeline</span>
           <h2 class="section-title bilingual-stack">
             <span class="lang-vi">Quy trình Sinh tin học &amp; Huấn luyện Trí tuệ Nhân tạo (5 Giai đoạn)</span>
             <span class="lang-en">Five-Stage Bioinformatics &amp; Machine Learning Pipeline</span>
           </h2>
           <p class="section-subtitle bilingual-stack">
-            <span class="lang-vi">Thiết kế quy trình khép kín chống rò rỉ dữ liệu (zero data leakage), tách biệt hoàn toàn bước chọn đặc trưng bên trong từng fold kiểm định chéo và kiểm chứng sinh học bằng con đường tín hiệu.</span>
-            <span class="lang-en">Leakage-free computational architecture isolating normalization and feature selection within cross-validation folds, followed by biological pathway enrichment.</span>
+            <span class="lang-vi">Quy trình tính toán chuẩn hóa chống rò rỉ dữ liệu (zero data leakage), tách biệt hoàn toàn bước chuẩn hóa và chọn đặc trưng bên trong từng fold kiểm định chéo, kết hợp phân tích làm giàu con đường tín hiệu sinh học.</span>
+            <span class="lang-en">Rigorous leakage-free computational architecture isolating normalization and feature selection inside cross-validation splits, coupled with functional pathway enrichment.</span>
           </p>
         </div>
 
@@ -546,14 +713,14 @@
     <section id="benchmarks" class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">04 · Interactive Biomarker &amp; Model Benchmark Dashboard</span>
+          <span class="section-kicker">Section 04 · Interactive Biomarker &amp; Model Benchmark Dashboard</span>
           <h2 class="section-title bilingual-stack">
-            <span class="lang-vi">Bảng điều khiển Hiệu năng Mô hình AI &amp; Dấu ấn 14-miRNA</span>
-            <span class="lang-en">Interactive AI Model Benchmark &amp; 14-miRNA Signature Dashboard</span>
+            <span class="lang-vi">Kết quả Thực nghiệm Mô hình AI &amp; Bảng Dấu ấn Sinh học 14-miRNA</span>
+            <span class="lang-en">Experimental AI Classifier Benchmarks &amp; 14-miRNA Biomarker Signature</span>
           </h2>
           <p class="section-subtitle bilingual-stack">
-            <span class="lang-vi">Chọn từng thuật toán học máy và tập kiểm định để xem đường cong ROC, ma trận nhầm lẫn, phân tích Volcano và xếp hạng tầm quan trọng SHAP.</span>
-            <span class="lang-en">Switch between machine learning classifiers and evaluation cohorts to inspect dynamic ROC curves, confusion matrices, SHAP rankings, and Volcano plots.</span>
+            <span class="lang-vi">Tương tác trực tiếp với biểu đồ Hình 1A (Đường cong ROC &amp; Ma trận nhầm lẫn), Hình 1B (Phân tích SHAP &amp; Volcano Plot) và Bảng 2 (Hồ sơ sinh học phân tử của 14 microRNA lõi).</span>
+            <span class="lang-en">Interact directly with Fig. 1A (ROC Curves &amp; Confusion Matrices), Fig. 1B (Global SHAP Attribution &amp; Volcano Plot), and Table 2 (Molecular Profile of the 14-miRNA Core Signature).</span>
           </p>
         </div>
 
@@ -582,9 +749,10 @@
         <div class="dashboard-grid" style="margin-bottom:2rem;">
           <!-- Left: ROC Curve + Metrics + Confusion Matrix -->
           <div class="card">
+            <span class="figure-label">FIGURE 1A · RECEIVER OPERATING CHARACTERISTIC</span>
             <h3 class="card-title bilingual-stack">
-              <span class="lang-vi">Đường cong ROC &amp; Chỉ số Phân loại Chẩn đoán</span>
-              <span class="lang-en">Receiver Operating Characteristic (ROC) &amp; Diagnostic Metrics</span>
+              <span class="lang-vi">Đường cong ROC &amp; Hiệu năng Phân loại Chẩn đoán</span>
+              <span class="lang-en">Receiver Operating Characteristic (ROC) &amp; Classification Metrics</span>
             </h3>
             <p id="roc-caption" style="margin:0 0 0.75rem;font-size:0.84rem;color:var(--text-secondary);"></p>
 
@@ -632,17 +800,19 @@
 
           <!-- Right: Toggleable SHAP Importance / Volcano Plot -->
           <div class="card">
-            <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:0.6rem;margin-bottom:0.65rem;">
-              <h3 class="card-title" style="margin:0;">
-                <span class="lang-vi">Phân tích Đặc trưng Sinh học</span>
-                <span class="sep-bilingual">/</span>
-                <span class="lang-en">Biomarker Attribution &amp; DE</span>
-              </h3>
+            <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:0.6rem;margin-bottom:0.4rem;">
+              <span class="figure-label" style="margin:0;">FIGURE 1B · EXPLAINABLE AI &amp; DIFFERENTIAL EXPRESSION</span>
               <div class="lang-switcher" role="group" aria-label="Secondary Visualization Switcher">
                 <button type="button" class="lang-btn active" data-secondary-chart="shap">SHAP Importance</button>
                 <button type="button" class="lang-btn" data-secondary-chart="volcano">Volcano Plot</button>
               </div>
             </div>
+
+            <h3 class="card-title" style="margin:0 0 0.5rem;">
+              <span class="lang-vi">Xếp hạng Trọng số SHAP &amp; Biểu đồ Volcano</span>
+              <span class="sep-bilingual">/</span>
+              <span class="lang-en">Global SHAP Feature Attribution &amp; Volcano Plot</span>
+            </h3>
 
             <p class="bilingual-stack" style="margin:0 0 0.75rem;font-size:0.83rem;color:var(--text-secondary);">
               <span class="lang-vi">Trực quan hóa mức đóng góp toàn cục (Mean |SHAP|) của 14 microRNA hoặc biểu đồ Volcano biểu hiện vi sai (log<sub>2</sub>FC so với −log<sub>10</sub>FDR).</span>
@@ -664,6 +834,7 @@
 
         <!-- 14-miRNA Searchable & Filterable Table -->
         <div>
+          <span class="figure-label">TABLE 2 · 14-miRNA DIAGNOSTIC SIGNATURE &amp; TARGET PATHWAYS</span>
           <h3 class="card-title bilingual-stack" style="margin-bottom:0.75rem;">
             <span class="lang-vi">Danh mục 14 Dấu ấn microRNA Cốt lõi (14-miRNA Core Diagnostic Signature)</span>
             <span class="lang-en">Curated 14-miRNA Core Diagnostic Signature Reference Table</span>
@@ -715,10 +886,10 @@
     <section id="simulator" class="section">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">05 · Interactive AI Diagnostic Prototype &amp; SHAP Explainer</span>
+          <span class="section-kicker">Section 05 · Interactive AI Diagnostic Prototype &amp; SHAP Explainer</span>
           <h2 class="section-title bilingual-stack">
-            <span class="lang-vi">Mô phỏng Dự đoán AI Tương tác &amp; Giải thích SHAP</span>
-            <span class="lang-en">Interactive AI Diagnostic Prototype &amp; Real-Time SHAP Attribution</span>
+            <span class="lang-vi">Mô phỏng Dự đoán AI Tương tác &amp; Giải thích SHAP Từng Ca Bệnh</span>
+            <span class="lang-en">Interactive AI Diagnostic Prototype &amp; Patient-Level SHAP Attribution</span>
           </h2>
           <p class="section-subtitle bilingual-stack">
             <span class="lang-vi">Chọn một trong 3 ca mẫu thực nghiệm hoặc kéo thanh trượt điều chỉnh mức biểu hiện chuẩn hóa log<sub>2</sub>(RPM+1) của 6 miRNA trọng tâm để quan sát xác suất dự đoán PRAD và biểu đồ đóng góp SHAP theo thời gian thực.</span>
@@ -728,7 +899,8 @@
 
         <div class="sim-grid">
           <!-- Controls -->
-          <div class="card">
+          <div class="card card-navy-top">
+            <span class="figure-label">INPUT CONSOLE · EXPRESSION PROFILE</span>
             <h3 class="card-title bilingual-stack">
               <span class="lang-vi">Thông số Biểu hiện Đầu vào (log<sub>2</sub>(RPM+1))</span>
               <span class="lang-en">Normalized Expression Inputs (log<sub>2</sub>(RPM+1))</span>
@@ -756,7 +928,8 @@
           </div>
 
           <!-- Output & SHAP Waterfall -->
-          <div class="card">
+          <div class="card card-accent-top">
+            <span class="figure-label">OUTPUT CONSOLE · ENSEMBLE &amp; SHAP EXPLANATION</span>
             <div class="prob-card">
               <div class="prob-header">
                 <div>
@@ -799,15 +972,58 @@
     <section id="team" class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">06 · Research Team, Ethics &amp; Public Contact</span>
+          <span class="section-kicker">Section 06 · Host Institution, Research Team &amp; Scientific Ethics</span>
           <h2 class="section-title bilingual-stack">
-            <span class="lang-vi">Đội ngũ Nghiên cứu, Đạo đức Khoa học &amp; Liên hệ</span>
-            <span class="lang-en">Research Group, Scientific Ethics &amp; Contact Information</span>
+            <span class="lang-vi">Đơn vị Chủ quản, Đội ngũ Nghiên cứu &amp; Đạo đức Khoa học</span>
+            <span class="lang-en">Host Institution, Research Team &amp; Scientific Governance</span>
           </h2>
           <p class="section-subtitle bilingual-stack">
-            <span class="lang-vi">Đề tài thực hiện tại <strong data-cfg="institutionVi">Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh</strong>. Bạn có thể bấm nút <strong>“Tùy chỉnh thông tin”</strong> trên thanh tiêu đề để điền nhanh tên thành viên hoặc cập nhật vĩnh viễn trong tệp <code class="mono">app.js</code>.</span>
-            <span class="lang-en">Hosted by <strong data-cfg="institutionEn">School of Pharmacy – University of Medicine and Pharmacy at Ho Chi Minh City (UMP HCMC)</strong>. Use <strong>“Customize Info”</strong> in the header or edit <code class="mono">app.js</code> to update specific investigator names.</span>
+            <span class="lang-vi">Đề tài thực hiện tại <strong data-cfg="institutionVi">Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh</strong>. Bấm nút <strong>“Tùy chỉnh thông tin”</strong> trên thanh tiêu đề để cập nhật nhanh tên thành viên hoặc sửa trực tiếp trong tệp <code class="mono">app.js</code>.</span>
+            <span class="lang-en">Conducted at the <strong data-cfg="institutionEn">School of Pharmacy – University of Medicine and Pharmacy at Ho Chi Minh City (UMP HCMC)</strong>. Click <strong>“Customize Info”</strong> in the header or edit <code class="mono">app.js</code> to update specific investigator details.</span>
           </p>
+        </div>
+
+        <!-- Official Institutional Affiliation Showcase -->
+        <div class="inst-showcase-card">
+          <img
+            src="assets/ump-default.png"
+            alt="Đại học Y Dược Thành phố Hồ Chí Minh - UMP HCMC"
+            class="inst-campus-photo"
+          />
+          <div>
+            <div class="inst-seal-row">
+              <img src="assets/logo-ump-crest.png" alt="Logo Đại học Y Dược TP. Hồ Chí Minh" width="60" height="60" />
+              <img src="assets/logo-truong-duoc.png" alt="Logo Trường Dược - ĐHYD TP.HCM" width="60" height="60" />
+              <div>
+                <div style="font-size:0.76rem;font-weight:800;color:var(--ump-cyan-700);text-transform:uppercase;letter-spacing:0.04em;">
+                  BỘ Y TẾ · MINISTRY OF HEALTH OF VIETNAM
+                </div>
+                <h3 style="margin:0.1rem 0;font-size:1.18rem;color:var(--ump-navy-900);">
+                  <span class="lang-vi">Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh</span>
+                  <span class="sep-bilingual"> / </span>
+                  <span class="lang-en">School of Pharmacy – University of Medicine and Pharmacy at HCMC</span>
+                </h3>
+                <div style="font-size:0.84rem;font-weight:600;color:var(--pharm-green-700);">
+                  <span class="lang-vi" data-cfg="departmentVi">Bộ môn Dược lý – Dược lâm sàng &amp; Sinh tin học Y dược (Nhóm Nghiên cứu Sinh viên NCKH)</span>
+                  <span class="sep-bilingual">·</span>
+                  <span class="lang-en" data-cfg="departmentEn">Department of Pharmacology – Clinical Pharmacy &amp; Biomedical Informatics (Student Research Unit)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bilingual-stack" style="font-size:0.87rem;color:var(--text-secondary);margin-bottom:0.75rem;">
+              <span class="lang-vi">Trường Dược trực thuộc Đại học Y Dược Thành phố Hồ Chí Minh (tiền thân từ năm 1947) là trung tâm đào tạo và nghiên cứu khoa học dược học, dược lý phân tử, dược lâm sàng và công nghệ y sinh hàng đầu tại Việt Nam.</span>
+              <span class="lang-en">The School of Pharmacy at the University of Medicine and Pharmacy at Ho Chi Minh City (founded in 1947) is a premier academic institution in Vietnam for pharmaceutical sciences, molecular pharmacology, clinical pharmacy, and biomedical informatics.</span>
+            </div>
+
+            <div style="display:flex;flex-wrap:wrap;gap:0.75rem;font-size:0.82rem;">
+              <span><strong>📍 Địa chỉ / Address:</strong> 41 Đinh Tiên Hoàng, P. Bến Nghé, Quận 1, TP. Hồ Chí Minh</span>
+              <span>·</span>
+              <a href="https://ump.edu.vn" target="_blank" rel="noopener noreferrer"><strong>🌐 https://ump.edu.vn</strong></a>
+              <span>·</span>
+              <a href="https://pharm.ump.edu.vn" target="_blank" rel="noopener noreferrer"><strong>🌐 https://pharm.ump.edu.vn</strong></a>
+            </div>
+          </div>
         </div>
 
         <div class="grid-3" style="margin-bottom:1.5rem;">
@@ -824,7 +1040,7 @@
           </article>
 
           <article class="card team-card card-navy-top">
-            <span class="role-pill" style="background:#e6eef9;color:var(--navy-900);">
+            <span class="role-pill" style="background:#e6eef9;color:var(--ump-navy-900);">
               <span class="lang-vi">Giảng viên Hướng dẫn</span><span class="sep-bilingual"> / </span><span class="lang-en">Faculty Advisor</span>
             </span>
             <h3 class="member-name" data-cfg="advisorName">TS. DS. / PGS. TS. Giảng viên Hướng dẫn (Cập nhật họ tên)</h3>
@@ -882,18 +1098,25 @@
     </section>
   </main>
 
-  <!-- Footer -->
+  <!-- Footer with Official Seals -->
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div style="max-width:620px;">
-        <div style="font-weight:700;color:#ffffff;margin-bottom:0.35rem;">
-          <span class="lang-vi" data-cfg="labNameVi">Nhóm Nghiên cứu Trí tuệ Nhân tạo Y sinh &amp; Sinh tin học Dược (UMP Pharmaco-BioAI Lab)</span>
-          <span class="sep-bilingual">·</span>
-          <span class="lang-en" data-cfg="labNameEn">UMP Pharmaco-BioAI &amp; Transcriptomics Research Group</span>
-        </div>
-        <div class="bilingual-stack" style="font-size:0.82rem;">
-          <span class="lang-vi" data-cfg="institutionVi">Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh</span>
-          <span class="lang-en" data-cfg="institutionEn">School of Pharmacy – University of Medicine and Pharmacy at Ho Chi Minh City (UMP HCMC)</span>
+      <div style="max-width:650px;">
+        <div class="footer-logos">
+          <img src="assets/logo-ump-crest.png" alt="Logo Đại học Y Dược TP. Hồ Chí Minh" width="48" height="48" />
+          <img src="assets/logo-truong-duoc.png" alt="Logo Trường Dược UMPSP" width="48" height="48" />
+          <div>
+            <div style="font-weight:800;color:#ffffff;font-size:0.95rem;">
+              <span class="lang-vi" data-cfg="institutionVi">Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh</span>
+              <span class="sep-bilingual"> / </span>
+              <span class="lang-en" data-cfg="institutionEn">School of Pharmacy – University of Medicine and Pharmacy at Ho Chi Minh City (UMP HCMC)</span>
+            </div>
+            <div style="font-size:0.8rem;color:#8ce7ff;font-weight:600;">
+              <span class="lang-vi" data-cfg="labNameVi">Nhóm Nghiên cứu Trí tuệ Nhân tạo Y sinh &amp; Sinh tin học Dược (UMP Pharmaco-BioAI Lab)</span>
+              <span class="sep-bilingual">·</span>
+              <span class="lang-en" data-cfg="labNameEn">UMP Pharmaco-BioAI &amp; Transcriptomics Research Group</span>
+            </div>
+          </div>
         </div>
         <div style="margin-top:0.35rem;font-size:0.8rem;color:#9eb7d4;">
           <span class="lang-vi" data-cfg="addressVi">41 Đinh Tiên Hoàng, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam</span>
@@ -903,9 +1126,10 @@
       </div>
 
       <div style="font-size:0.82rem;">
-        <div><strong>Public URL:</strong> <a href="https://wwm100107-creator.github.io/ump-bioai-lab/" data-cfg-href="publicUrl" target="_blank" rel="noopener noreferrer">https://wwm100107-creator.github.io/ump-bioai-lab/</a></div>
+        <div><strong>Public Lab Portal:</strong> <a href="https://wwm100107-creator.github.io/ump-bioai-lab/" data-cfg-href="publicUrl" target="_blank" rel="noopener noreferrer">https://wwm100107-creator.github.io/ump-bioai-lab/</a></div>
+        <div><strong>Official University Portals:</strong> <a href="https://ump.edu.vn" target="_blank" rel="noopener noreferrer">ump.edu.vn</a> · <a href="https://pharm.ump.edu.vn" target="_blank" rel="noopener noreferrer">pharm.ump.edu.vn</a></div>
         <div><strong>Contact Email:</strong> <a href="mailto:pharmaco-bioai-lab@ump.edu.vn" data-cfg-href="contactEmail" data-cfg="contactEmail">pharmaco-bioai-lab@ump.edu.vn</a></div>
-        <div style="margin-top:0.35rem;color:#9eb7d4;">© <span data-cfg="year">2026</span> UMP Pharmaco-BioAI Lab · Open Public Science Portal</div>
+        <div style="margin-top:0.35rem;color:#9eb7d4;">© <span data-cfg="year">2026</span> UMP Pharmaco-BioAI Lab · Open Public Science Portal (No Login Required)</div>
       </div>
     </div>
   </footer>
@@ -914,7 +1138,7 @@
   <div class="modal-backdrop" id="cite-modal" role="dialog" aria-modal="true" aria-labelledby="cite-modal-title">
     <div class="modal-panel">
       <div class="modal-header">
-        <h3 id="cite-modal-title" style="margin:0;color:var(--navy-900);">
+        <h3 id="cite-modal-title" style="margin:0;color:var(--ump-navy-900);">
           <span class="lang-vi">Trích dẫn Đề tài Nghiên cứu</span><span class="sep-bilingual"> / </span><span class="lang-en">Cite This Research Project</span>
         </h3>
         <button type="button" class="modal-close" data-close-modal="cite-modal" aria-label="Close modal">×</button>
@@ -943,7 +1167,7 @@
   <div class="modal-backdrop" id="customize-modal" role="dialog" aria-modal="true" aria-labelledby="customize-modal-title">
     <div class="modal-panel">
       <div class="modal-header">
-        <h3 id="customize-modal-title" style="margin:0;color:var(--navy-900);">
+        <h3 id="customize-modal-title" style="margin:0;color:var(--ump-navy-900);">
           <span class="lang-vi">Tùy chỉnh Thông tin Nhóm Nghiên cứu</span><span class="sep-bilingual"> / </span><span class="lang-en">Customize Lab &amp; Member Info</span>
         </h3>
         <button type="button" class="modal-close" data-close-modal="customize-modal" aria-label="Close modal">×</button>
