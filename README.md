@@ -1,5 +1,10 @@
 # UMP Pharmaco-BioAI & Transcriptomics Research Group Portal
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-2563eb?style=flat-square)](LICENSE)
+[![BioAI Research](https://img.shields.io/badge/BioAI_Research-microRNA_Profiling-0f766e?style=flat-square)](https://github.com/wwm100107-creator/ump-bioai-lab)
+[![UMP HCMC](https://img.shields.io/badge/UMP_HCMC-School_of_Pharmacy-1e3a8a?style=flat-square)](https://wwm100107-creator.github.io/ump-bioai-lab/)
+[![Last Commit](https://img.shields.io/github/last-commit/wwm100107-creator/ump-bioai-lab?style=flat-square&color=475569)](https://github.com/wwm100107-creator/ump-bioai-lab/commits/main)
+
 **Trang thông tin điện tử công khai (Open Public Portal – Không yêu cầu đăng nhập)** phục vụ đề tài nghiên cứu khoa học sinh viên tại **Trường Dược – Đại học Y Dược Thành phố Hồ Chí Minh (UMP HCMC)**.
 
 ---
